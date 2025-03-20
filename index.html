@@ -56,5 +56,23 @@
     </main>
 
     <div class="glitch-overlay"></div>
+
+    <div class="random-char-grid">
+      <script>
+        const chars = '!@#$%^&*()_+-=[]{}|;:,.<>?/~`░▒▓█▀▄■□▢▣▤▥▦▧▨▩▪▫▬▭▮▯▰▱▲▼◄►◆◇○●◐◑◒◓◔◕';
+        const grid = document.querySelector('.random-char-grid');
+        const ROWS = 50;
+        const COLS = 80;
+        
+        for(let row = 0; row < ROWS; row++) {
+          for(let col = 0; col < COLS; col++) {
+            const span = document.createElement('span');
+            span.textContent = chars[Math.floor(Math.random() * chars.length)];
+            span.style.setProperty('--row-index', row);
+            grid.appendChild(span);
+          }
+        }
+      </script>
+    </div>
 </body>
 </html> 
