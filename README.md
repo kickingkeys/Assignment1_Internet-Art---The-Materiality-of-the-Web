@@ -8,21 +8,21 @@ Digital Decay is a minimalist webpage that transforms from a clean, aesthetic de
 
 ## Current Implementation Process
 
-### Step 1: Base Structure ✅
+### Step 1: Base Structure 
 - Created the HTML layout with semantic structure
 - Styled the initial pristine state with clean aesthetics
 - Implemented a responsive design that works across devices
 - Added a subtle grid background and positioned elements precisely
 - Set up CSS variables for animation timeline and color palette
 
-### Step 2: ASCII Art Creation ✅
+### Step 2: ASCII Art Creation 
 - Designed enhanced ASCII art for the central focal point using block characters
 - Created a more complex navigation ASCII element
 - Developed multiple layers of corrupted ASCII versions for the decay animation
 - Ensured ASCII characters are well-formed and display properly across browsers
 - Added subtle text-shadow effects to enhance the visual appearance
 
-### Step 3: Animation Framework ✅
+### Step 3: Animation Framework 
 - Set up CSS keyframe animations for all elements
 - Created percentage-based animation timing variables
 - Implemented a complete 20-second master timeline
